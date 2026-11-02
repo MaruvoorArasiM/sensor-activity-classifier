@@ -175,7 +175,7 @@ with tab3:
         * Total Actual Running Cycles: **530**
         """)
     with col2:
-        st.write("### 🗃️ Confusion Matrix Verification Ledger")
+        st.write("###  Confusion Matrix Verification Ledger")
         cm_data = [[531, 2], [0, 530]]
         fig, ax = plt.subplots(figsize=(5, 3.2))
         sns.heatmap(cm_data, annot=True, fmt="d", cmap="Reds", xticklabels=["Walk", "Run"], yticklabels=["Walk", "Run"], cbar=False)
