@@ -29,7 +29,7 @@ The project established a comprehensive benchmarking tournament comparing tradit
 
 ### 1. Pipeline A: Resampled Tabular Framework (`df_analysis`)
 * Evaluated 7 optimized classical classifiers via cross-validated hyperparameter grids (GridSearchCV).
-* **Tabular Champion:** Support Vector Machine (SVM) achieving **99.84% Test Accuracy**, successfully capturing macro-level geometric separations across the bimodal physical features.
+* **Tabular Champion:** Support Vector Machine (SVM) achieving **99.68% Test Accuracy**, successfully capturing macro-level geometric separations across the bimodal physical features.
 
 ### 2. Pipeline B: Raw Sequence 3D Window Framework (`df_ML`)
 * Formatted raw continuous records into isolated 3D sequence tensors of 50 time-steps with a 50% chronological stride overlap to completely block temporal data leakage.
