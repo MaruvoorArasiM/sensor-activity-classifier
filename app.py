@@ -45,7 +45,7 @@ deployment_mode = st.sidebar.radio(
 if deployment_mode == "Cloud Server Paradigm (Raw 1D CNN Champion)":
     st.sidebar.success("🎯 Mode: High-Fidelity Micro-Gait Spatial-Temporal Analytics (99.81% Accuracy Floor / 100% Recall Focus)")
 else:
-    st.sidebar.info("🔋 Mode: Zero-Overhead On-Device Low-Power Firmware Vector Engine (99.84% Accuracy Base)")
+    st.sidebar.info("🔋 Mode: Zero-Overhead On-Device Low-Power Firmware Vector Engine (99.68% Accuracy Base)")
 
 # =========================================================================
 # MULTI-TAB DISPLAY PLATFORM 
